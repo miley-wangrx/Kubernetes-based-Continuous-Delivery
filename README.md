@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [![Flask Change Microservice Test](https://github.com/noahgift/flask-change-microservice/actions/workflows/main.yml/badge.svg)](https://github.com/noahgift/flask-change-microservice/actions/workflows/main.yml)
 
 # flask-change-microservice
