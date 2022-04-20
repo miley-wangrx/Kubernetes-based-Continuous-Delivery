@@ -12,6 +12,14 @@ Small Flask Microservice that calculates one's BMI based on entered height and w
 
 ## Build and Run Docker Container
 * Build the image locally: `docker build -t bmi_calculator:latest` or run `make build`
+* Verify the container: `docker image ls`
+* Run the project: `docker run -p 8080:8080 bmi_calculator` or run `make run` which has the same command
+* Invoke the web service via curl: 
+  - open a separate terminal
+  - activate the virtual environment `source ~/.venv/bin/fcm`
+  - run `curl http://127.0.0.1:8080/bmi/1.75/57` or run `make invoke`
+
+## Implementation
 
 ## Loadtest with Locust
 
@@ -21,3 +29,4 @@ Small Flask Microservice that calculates one's BMI based on entered height and w
 ![Screen Shot 2021-03-16 at 3 02 59 PM](https://user-images.githubusercontent.com/58792/111367175-d7328600-866a-11eb-9a4d-3429710593ea.png)
 ![Screen Shot 2021-03-16 at 3 02 35 PM](https://user-images.githubusercontent.com/58792/111367176-d7328600-866a-11eb-9856-928d42e65a9a.png)
 ![Screen Shot 2021-03-16 at 3 01 22 PM](https://user-images.githubusercontent.com/58792/111367178-d7cb1c80-866a-11eb-8c29-6440a6179544.png)
+
