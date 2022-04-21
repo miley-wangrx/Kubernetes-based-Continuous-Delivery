@@ -1,4 +1,4 @@
-[![Flask Change Microservice Test](https://github.com/miley-wangrx/Kubernetes-based-Continuous-Delivery/actions/workflows/main.yml/badge.svg)](https://github.com/miley-wangrx/Kubernetes-based-Continuous-Delivery/actions/workflows/main.yml)
+[![Flask BMI Calculator Test](https://github.com/miley-wangrx/Kubernetes-based-Continuous-Delivery/actions/workflows/main.yml/badge.svg)](https://github.com/miley-wangrx/Kubernetes-based-Continuous-Delivery/actions/workflows/main.yml)
 
 # Flask BMI Calculator
 Small Flask Microservice that calculates one's BMI based on entered height and weight
