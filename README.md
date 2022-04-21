@@ -19,7 +19,8 @@ Small Flask Microservice that calculates one's BMI based on entered height and w
   - activate the virtual environment `source ~/.venv/bin/fcm`
   - run `curl http://127.0.0.1:8080/bmi/1.75/57` or run `make invoke`
 
-## Implementation
+## Push Docker image to Amazon ECR
+
 
 ## Loadtest with Locust
 
