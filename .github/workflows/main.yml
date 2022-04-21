@@ -1,4 +1,4 @@
-name: Flask Change Microservice Test
+name: Flask BMI Microservice Test
 on: [push]
 jobs:
   build:
